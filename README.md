@@ -1,5 +1,7 @@
-Personal project about generating [polyominoes](https://en.wikipedia.org/wiki/Polyomino) for use in tetris-like game.
+Personal project about generating [polyominoes](https://en.wikipedia.org/wiki/Polyomino). Originally intended for *Tetris*-like game.
 
-TODO
-- implement boolean arrays as binary integer
-- prune duplicates while propagating
+# TODO
+- implement FreePolyomino enumeration
+
+# Dependencies
+- [BinaryList](https://github.com/Chakr3y/BinaryList)
