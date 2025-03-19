@@ -5,4 +5,5 @@
  * 
  */
 module polyominoGenerator {
+	requires junit;
 }
