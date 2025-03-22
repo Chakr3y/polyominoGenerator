@@ -12,7 +12,7 @@ Originally intended for *Tetris*-like game.
 
 ## Dependencies
 
-- [BinaryList](https://github.com/Chakr3y/BinaryList)
+- [BinaryList](https://github.com/Chakr3y/BinaryList) (idk how to properly package my projects yet, so installation will suck)
 - JUnit (for testing)
 
 ## Algorithm Details
