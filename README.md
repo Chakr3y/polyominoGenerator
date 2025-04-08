@@ -9,6 +9,7 @@ Originally intended for *Tetris*-like game.
 
 - implement FreePolyomino enumeration
 - refine algorithm (e.g. chiral and free polyomino should be restricted to $`n`$ x $`\frac{n}{2}`$ )
+- use adjacency matrix to track visited cells when propagating?
 
 ## Dependencies
 
