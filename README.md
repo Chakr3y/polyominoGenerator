@@ -12,6 +12,7 @@ Originally intended for *Tetris*-like game.
 
 ## Dependencies
 
+For dockerize branch, just run `docker compose up --build` then `docker run -it polyominogenerator-server`.
 - [BinaryList](https://github.com/Chakr3y/BinaryList)
 - JUnit (for testing)
 

@@ -15,6 +15,7 @@ public class PolyominoGenerator {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("N: ");
 		N = scanner.nextInt();
 		scanner.close();
 		if (N < 1) {
