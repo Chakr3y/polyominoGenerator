@@ -1,6 +1,9 @@
-package polyominoGenerator;
+package com.github.Chakr3y;
 
 import static org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.Ignore;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -9,13 +12,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.Collections;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.junit.Ignore;
-
-import BinaryList.BinaryList;
-
-import static polyominoGenerator.PolyominoEnumeration.*;
+import static com.github.Chakr3y.PolyominoEnumeration.*;
 
 public class CompareTest {
 	// No of cells per block

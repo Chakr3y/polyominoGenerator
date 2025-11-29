@@ -1,6 +1,4 @@
-package polyominoGenerator;
-
-import BinaryList.BinaryList;
+package com.github.Chakr3y;
 
 import java.util.ArrayList;
 import java.util.HashSet;

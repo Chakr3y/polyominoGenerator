@@ -1,22 +1,28 @@
-package polyominoGenerator;
+package com.github.Chakr3y;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.Scanner;
 
-import static polyominoGenerator.PolyominoEnumeration.*;
+import static com.github.Chakr3y.PolyominoEnumeration.*;
 
 public class PolyominoGenerator {
 	// number of cells
 	static int N;
 
 	public static void main(String[] args) {
-		// Change this variable
-		N = 11;
-		// Iterations
-		int C = 10;
+		Scanner scanner = new Scanner(System.in);
+		N = scanner.nextInt();
+		scanner.close();
+		if (N < 1) {
+			System.out.println("N must be a positive integer.");
+			return;
+		}
+		// Iterations for testing running time
+		int C = 1;
 		
 		long start = System.currentTimeMillis();
 	

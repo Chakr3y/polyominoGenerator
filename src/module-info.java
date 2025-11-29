@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module polyominoGenerator {
-	requires junit;
-}

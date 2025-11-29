@@ -1,4 +1,4 @@
-package polyominoGenerator;
+package com.github.Chakr3y;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.Objects;
 import java.util.stream.Collectors;
-
-import static polyominoGenerator.Polyomino.Direction;
 
 /**
  * A collection of subclasses for each method of enumerating Polyominoes.
